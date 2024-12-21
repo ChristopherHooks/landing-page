@@ -105,11 +105,18 @@ a {
 
 .item {
     display: flex;
+    font-size: 18px;
     flex-direction: column;
     padding: 24px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap; 
+}
+
+.item p{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .gallery h2 {
@@ -148,7 +155,7 @@ a {
 .text {
     font-size: 36px;
     font-style: italic;
-    font-weight: 50;
+   
 }
 
 .author{
@@ -202,4 +209,12 @@ a {
     justify-content: center;
     align-items: center;
     width: 25%;
+}
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    width: 100%;
+    color: #E5E7EB;
+    justify-content:center;
 }
