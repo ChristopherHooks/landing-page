@@ -111,10 +111,10 @@ a {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-.item p{
+.item p {
     display: flex;
     flex-wrap: wrap;
 }
@@ -134,6 +134,10 @@ a {
 
 .item img {
     border-radius: 24px;
+    border: 8px solid teal;
+    border-radius: 24px;
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -146,7 +150,7 @@ a {
     align-items: center;
 }
 
-.quote-container{
+.quote-container {
     align-items: center;
     justify-content: center;
     width: 65%;
@@ -155,66 +159,65 @@ a {
 .text {
     font-size: 36px;
     font-style: italic;
-   
+
 }
 
-.author{
-    font-weight:bold;
+.author {
+    font-weight: bold;
     font-size: 18px;
     text-align: right;
     margin-right: 36px;
 }
 
-.call-to-action{
+.call-to-action {
     height: 400px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    align-items:center;
-    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
 }
 
-.call-to-action-container{
+.call-to-action-container {
     display: flex;
     width: 60%;
     background-color: #3882f6;
     padding: 48px;
     border-radius: 16px;
     color: white;
-    border: 2px solid green;
     justify-content: space-between;
 }
 
-.call-to-action-container h3{
+.call-to-action-container h3 {
     font-size: 24px;
 }
-.call-to-action-container p{
+
+.call-to-action-container p {
     font-size: 16px;
     padding-bottom: 8px;
 }
 
-.call-to-action-container button{
+.call-to-action-container button {
     background-color: #3882f6;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
     border-color: white;
     border-style: solid;
-    border-radius:8px;
+    border-radius: 8px;
 }
 
-.right{
+.right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
 }
 
-.footer{
+.footer {
     display: flex;
     background-color: #1f2937;
     width: 100%;
     color: #E5E7EB;
-    justify-content:center;
+    justify-content: center;
 }
