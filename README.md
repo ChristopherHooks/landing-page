@@ -14,17 +14,17 @@ Prerequisites
 	•	Basic knowledge of HTML, CSS, and JavaScript
 
 Installation
-	1.	Clone the repository:
+1.	Clone the repository:
 
-git clone https://github.com/ChristopherHooks/landing-page.git
-
-
-	2.	Navigate to the project directory:
-
-cd landing-page
+`git clone https://github.com/ChristopherHooks/landing-page.git`
 
 
-	3.	Open index.html in your preferred web browser to view the landing page.
+2.	Navigate to the project directory:
+
+`cd landing-page`
+
+
+3.	Open index.html in your preferred web browser to view the landing page.
 
 Customization
 	•	HTML: Edit the index.html file to add or modify the content.
@@ -35,20 +35,20 @@ Contributing
 	1.	Fork the repository.
 	2.	Create a new branch:
 
-git checkout -b feature/YourFeatureName
+`git checkout -b feature/YourFeatureName`
 
 
-	3.	Make your changes and commit them:
+3.	Make your changes and commit them:
 
-git commit -m 'Add some feature'
-
-
-	4.	Push to the branch:
-
-git push origin feature/YourFeatureName
+`git commit -m 'Add some feature'`
 
 
-	5.	Open a pull request.
+4.	Push to the branch:
+
+`git push origin feature/YourFeatureName`
+
+
+5.	Open a pull request.
 
 License
 
